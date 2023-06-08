@@ -18,7 +18,7 @@ export default function Home({ randomnum }) {
   return (
     <div className={styles.container}>
       <Head>
-        <title>NextJS ISR</title>
+        <title>NextJS ISR Annina</title>
         <meta name="description" content="NextJS ISR" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
