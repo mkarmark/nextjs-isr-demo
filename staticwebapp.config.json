@@ -1,4 +1,14 @@
 {
+    "routes": [
+        {
+            "route": "/foo",
+            "rewrite": "/next.svg"
+        },
+                {
+            "route": "/bar",
+            "redirect": "/"
+        }
+    ],
     "globalHeaders": {
         "cache-control": "max-age=60"
     }
