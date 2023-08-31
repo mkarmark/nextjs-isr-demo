@@ -11,5 +11,10 @@
     ],
     "globalHeaders": {
         "cache-control": "max-age=60"
+    },
+    "responseOverrides": {
+        "404": {
+          "rewrite": "/notfound"
+        }
     }
 }
